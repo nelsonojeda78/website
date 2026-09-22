@@ -1,0 +1,119 @@
+[
+ {
+  "slot": "ba-agua-antes",
+  "file": "Corroded water pipe.jpg",
+  "artist": "aismallard",
+  "lic": "CC BY-SA 3.0",
+  "licurl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "desc": "Hole in the wall in the New York City Subway producing rusted water, dripping into a dirty grate.",
+  "page": "https://commons.wikimedia.org/wiki/File%3ACorroded%20water%20pipe.jpg"
+ },
+ {
+  "slot": "ba-agua-despues",
+  "file": "Under Sink - PVC Piping.jpg",
+  "artist": "Tony Webster",
+  "lic": "CC BY 2.0",
+  "licurl": "https://creativecommons.org/licenses/by/2.0",
+  "desc": "Under Kitchen Sink - PVC Piping",
+  "page": "https://commons.wikimedia.org/wiki/File%3AUnder%20Sink%20-%20PVC%20Piping.jpg"
+ },
+ {
+  "slot": "ba-pintura-antes",
+  "file": "Peeling paint 2.jpg",
+  "artist": "Daniel Schwen",
+  "lic": "CC BY-SA 4.0",
+  "licurl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "desc": "Peeling paint at the New York City subway station Ocean Parkway in Brooklyn",
+  "page": "https://commons.wikimedia.org/wiki/File%3APeeling%20paint%202.jpg"
+ },
+ {
+  "slot": "ba-pintura-despues",
+  "file": "Empty apartment room with corner windows.jpg",
+  "artist": "aismallard",
+  "lic": "CC BY-SA 3.0",
+  "licurl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "desc": "Photograph of the interior of an empty apartment room. It has a dark, hardwood floor and white plaster walls. ",
+  "page": "https://commons.wikimedia.org/wiki/File%3AEmpty%20apartment%20room%20with%20corner%20windows.jpg"
+ },
+ {
+  "slot": "ba-electrico-antes",
+  "file": "Cable salad in shaft.JPG",
+  "artist": "Dmitry G",
+  "lic": "CC BY-SA 3.0",
+  "licurl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "desc": "Cable salad in my house. Someone had cut my neutral and repaired it by luster terminal without accuracy lining",
+  "page": "https://commons.wikimedia.org/wiki/File%3ACable%20salad%20in%20shaft.JPG"
+ },
+ {
+  "slot": "ba-electrico-despues",
+  "file": "Fuse box on hager components.JPG",
+  "artist": "Dmitry G",
+  "lic": "CC BY-SA 3.0",
+  "licurl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "desc": "Waking up on saturday at 7:30AM to complete fuse box.",
+  "page": "https://commons.wikimedia.org/wiki/File%3AFuse%20box%20on%20hager%20components.JPG"
+ },
+ {
+  "slot": "ba-gypsum-antes",
+  "file": "Ceiling water damage.jpg",
+  "artist": "Atomicdragon136",
+  "lic": "CC BY 3.0",
+  "licurl": "https://creativecommons.org/licenses/by/3.0",
+  "desc": "Damage of a ceiling panel caused by a leaking pipe",
+  "page": "https://commons.wikimedia.org/wiki/File%3ACeiling%20water%20damage.jpg"
+ },
+ {
+  "slot": "ba-gypsum-despues",
+  "file": "Hotel Gillow Room.jpg",
+  "artist": "RobertoGlezV",
+  "lic": "CC0",
+  "licurl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "desc": "THE OLDEST HOTEL IN THE CITY. WITH SPACIOUS AND COMFORTABLE ROOMS.",
+  "page": "https://commons.wikimedia.org/wiki/File%3AHotel%20Gillow%20Room.jpg"
+ },
+ {
+  "slot": "ben-1-un-responsable",
+  "file": "Handyman measuring a board.jpg",
+  "artist": "Ivan Radic",
+  "lic": "CC BY 2.0",
+  "licurl": "https://creativecommons.org/licenses/by/2.0",
+  "desc": "A person measuring a wooden board.",
+  "page": "https://commons.wikimedia.org/wiki/File%3AHandyman%20measuring%20a%20board.jpg"
+ },
+ {
+  "slot": "ben-2-presupuesto",
+  "file": "Business agreement handshake at coffee shop.jpg",
+  "artist": "rawpixel.com",
+  "lic": "CC0",
+  "licurl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "desc": "Business agreement handshake at coffee shop",
+  "page": "https://commons.wikimedia.org/wiki/File%3ABusiness%20agreement%20handshake%20at%20coffee%20shop.jpg"
+ },
+ {
+  "slot": "ben-3-garantia",
+  "file": "Modern luxury living room with kitchen interior.jpg",
+  "artist": "Shixart1985",
+  "lic": "CC BY 2.0",
+  "licurl": "https://creativecommons.org/licenses/by/2.0",
+  "desc": "Modern luxury living room with kitchen interior",
+  "page": "https://commons.wikimedia.org/wiki/File%3AModern%20luxury%20living%20room%20with%20kitchen%20interior.jpg"
+ },
+ {
+  "slot": "ben-4-puntualidad",
+  "file": "Electrician Mike Hughes Installing Meter Base.jpg",
+  "artist": "Team Massachusetts 4D Home",
+  "lic": "CC BY 2.0",
+  "licurl": "https://creativecommons.org/licenses/by/2.0",
+  "desc": "Electrician installing new meter socket on the side of a house.",
+  "page": "https://commons.wikimedia.org/wiki/File%3AElectrician%20Mike%20Hughes%20Installing%20Meter%20Base.jpg"
+ },
+ {
+  "slot": "ben-5-limpieza",
+  "file": "Living room (Unsplash).jpg",
+  "artist": "Jarosław Ceborski jarson",
+  "lic": "CC0",
+  "licurl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "desc": "Jarosław Ceborski 2017-05-03",
+  "page": "https://commons.wikimedia.org/wiki/File%3ALiving%20room%20%28Unsplash%29.jpg"
+ }
+]

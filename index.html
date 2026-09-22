@@ -4,6 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Casa Soluciones | Soluciones integrales para tu hogar</title>
+    <meta name="description" content="Gasfitería, electricidad, soldadura, pintura, gypsum y remodelación en La Libertad y Salinas. Presupuesto por escrito, precio cerrado y garantía escrita de 12 meses. Visita sin costo.">
+    <meta name="theme-color" content="#FFB000">
+    <meta property="og:title" content="Mi Casa Soluciones | Soluciones integrales para tu hogar">
+    <meta property="og:description" content="Una sola llamada, todo resuelto y por escrito. Garantía escrita de 12 meses en mano de obra.">
+    <meta property="og:image" content="assets/logo_ambar.png">
+    <meta property="og:type" content="website">
+    <link rel="icon" href="assets/favicon.ico" sizes="any">
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/favicon-192.png">
+    <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
@@ -14,9 +23,15 @@
     <header class="header">
         <div class="container">
             <nav class="navbar">
-                <div class="logo">
-                    <img src="https://placehold.co/200x60/393536/FFFFFF?text=Mi+Casa+SOLUCIONES&font=montserrat" alt="Mi Casa Soluciones Logo">
-                </div>
+                <a class="logo" href="#inicio" aria-label="Mi Casa Soluciones - Inicio">
+                    <picture>
+                        <source media="(max-width: 560px)" srcset="assets/emblema_ambar.png">
+                        <img src="assets/logo_ambar.png"
+                             srcset="assets/logo_ambar.png 1x"
+                             alt="Mi Casa Soluciones - Soluciones integrales para tu hogar"
+                             width="1000" height="472" decoding="async">
+                    </picture>
+                </a>
                 <button class="mobile-menu-btn" aria-label="Menú">
                     <span></span>
                     <span></span>
@@ -26,6 +41,7 @@
                     <li><a href="#inicio">Inicio</a></li>
                     <li><a href="#servicios">Servicios</a></li>
                     <li><a href="#antes-despues">Nuestros Trabajos</a></li>
+                    <li><a href="#beneficios">Beneficios</a></li>
                     <li><a href="#diferencias">Por qué elegirnos</a></li>
                     <li><a href="#contacto">Contacto</a></li>
                 </ul>
@@ -41,22 +57,6 @@
 
     <!-- Hero Section with Video -->
     <section id="inicio" class="hero">
-        <div class="video-overlay">
-            <div class="video-container">
-                <div class="video-placeholder">
-                    <div class="play-button">
-                        <svg width="64" height="64" viewBox="0 0 24 24" fill="white">
-                            <path d="M8 5v14l11-7z"/>
-                        </svg>
-                    </div>
-                    <p class="video-text">Conocemos tu frustración...</p>
-                </div>
-                <video controls poster="https://placehold.co/1920x1080/393536/FFB000?text=Video+Mi+Casa+Soluciones">
-                    <source src="video-mi-casa-soluciones.mp4" type="video/mp4">
-                    Tu navegador no soporta el video.
-                </video>
-            </div>
-        </div>
         <div class="hero-content">
             <div class="container">
                 <h1 class="hero-title">¿Cansado de contratar a varios maestros y que nada quede bien?</h1>
@@ -91,6 +91,65 @@
                         <span>Precio cerrado por escrito</span>
                     </div>
                 </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Sección de Video: por qué creamos Mi Casa Soluciones -->
+    <section id="video" class="video-section">
+        <div class="container">
+            <h2 class="section-title center">Mira por qué creamos Mi Casa Soluciones</h2>
+            <p class="section-subtitle center">Entendemos tu dolor. Esta es nuestra respuesta.</p>
+
+            <div class="video-frame">
+                <!--
+                    CÓMO PUBLICAR EL VIDEO:
+                    1) Sube el video a YouTube (recomendado) o guárdalo como
+                       "video-mi-casa-soluciones.mp4" en esta misma carpeta.
+                    2) YouTube: reemplaza VIDEO_ID en el iframe de abajo.
+                    3) MP4 local: borra el <iframe> y descomenta el <video>.
+                -->
+                <div class="video-placeholder" id="videoPlaceholder" role="button" tabindex="0"
+                     aria-label="Reproducir video: por qué creamos Mi Casa Soluciones">
+                    <img class="video-poster" src="images/ben-1-un-responsable.jpg"
+                         alt="Antes: contratar a varios maestros por separado. Después: un solo responsable."
+                         loading="lazy" decoding="async">
+                    <div class="video-veil"></div>
+                    <div class="video-play">
+                        <svg width="34" height="34" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                            <path d="M8 5v14l11-7z"/>
+                        </svg>
+                    </div>
+                    <div class="video-caption">
+                        <strong>Nuestro video:</strong> el dolor de contratar a varios maestros
+                        y por qué decidimos crear esta empresa.
+                        <span class="video-meta">Duración estimada: 1:30 min</span>
+                    </div>
+                </div>
+
+                <!-- Opción YouTube (reemplaza VIDEO_ID por el identificador real)
+                <iframe class="video-embed" src="https://www.youtube.com/embed/VIDEO_ID?rel=0"
+                        title="Por qué creamos Mi Casa Soluciones" loading="lazy"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                -->
+
+                <!-- Opción MP4 local (descomenta cuando exista el archivo)
+                <video class="video-embed" controls preload="none"
+                       poster="images/ben-1-un-responsable.jpg">
+                    <source src="video-mi-casa-soluciones.mp4" type="video/mp4">
+                    Tu navegador no soporta el video.
+                </video>
+                -->
+            </div>
+
+            <div class="video-fallback-note">
+                <p>Mientras publicamos el video, escríbenos y te contamos el proceso completo en 2 minutos por WhatsApp.</p>
+                <a href="https://wa.me/593963303081?text=Hola,%20quiero%20saber%20c%C3%B3mo%20trabajan"
+                   class="btn btn-primary" target="_blank" rel="noopener">
+                    Contarme cómo trabajan
+                </a>
             </div>
         </div>
     </section>
@@ -276,73 +335,104 @@
             <p class="section-subtitle center">Antes y después de nuestros trabajos</p>
 
             <div class="ba-gallery">
-                <!-- Proyecto 1 -->
                 <div class="ba-project">
                     <div class="ba-slider">
                         <div class="ba-images">
-                            <img src="https://placehold.co/600x400/8A8580/FFFFFF?text=ANTES:+Fuga+de+agua+visible" alt="Antes - Fuga de agua" class="ba-before">
-                            <img src="https://placehold.co/600x400/1E7B4F/FFFFFF?text=DESPUÉS:+Todo+en+orden" alt="Después - Reparación completa" class="ba-after">
+                            <img src="images/ba-agua-antes.jpg" alt="Antes: tubería de agua corroída y oxidada, origen frecuente de fugas" class="ba-before" loading="lazy" decoding="async">
+                            <img src="images/ba-agua-despues.jpg" alt="Después: tubería nueva instalada bajo el lavabo, limpia y sin fugas" class="ba-after" loading="lazy" decoding="async">
+                            <span class="ba-tag ba-tag-before">ANTES</span>
+                            <span class="ba-tag ba-tag-after">DESPUÉS</span>
+                            <span class="ba-handle" aria-hidden="true">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M8 5l-5 7 5 7V5zm8 0v14l5-7-5-7z"/>
+                                </svg>
+                            </span>
                         </div>
-                        <input type="range" min="0" max="100" value="0" class="ba-slider-range" aria-label="Deslizar para ver antes y después">
+                        <input type="range" min="0" max="100" value="50" class="ba-slider-range"
+                               aria-label="Deslizar para comparar el antes y el después de Reparación de fuga de agua">
                     </div>
                     <div class="ba-info">
                         <h4>Reparación de fuga de agua</h4>
-                        <p>Localización, reparación y prueba de presión garantizada.</p>
+                        <p>Localizamos la fuga, cambiamos la tubería por PPR con termofusión y probamos la presión antes de entregar.</p>
                         <span class="ba-price">USD 45 • 2 horas</span>
                     </div>
                 </div>
-
-                <!-- Proyecto 2 -->
                 <div class="ba-project">
                     <div class="ba-slider">
                         <div class="ba-images">
-                            <img src="https://placehold.co/600x400/8A8580/FFFFFF?text=ANTES:+Pared+sin+pintura" alt="Antes - Pared sin pintar" class="ba-before">
-                            <img src="https://placehold.co/600x400/FFB000/393536?text=DESPUÉS:+Pintura+perfecta" alt="Después - Pintura terminada" class="ba-after">
+                            <img src="images/ba-pintura-antes.jpg" alt="Antes: pared con pintura descascarada y desprendida por la humedad" class="ba-before" loading="lazy" decoding="async">
+                            <img src="images/ba-pintura-despues.jpg" alt="Después: ambiente con paredes empastadas y pintadas, acabado uniforme" class="ba-after" loading="lazy" decoding="async">
+                            <span class="ba-tag ba-tag-before">ANTES</span>
+                            <span class="ba-tag ba-tag-after">DESPUÉS</span>
+                            <span class="ba-handle" aria-hidden="true">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M8 5l-5 7 5 7V5zm8 0v14l5-7-5-7z"/>
+                                </svg>
+                            </span>
                         </div>
-                        <input type="range" min="0" max="100" value="0" class="ba-slider-range" aria-label="Deslizar para ver antes y después">
+                        <input type="range" min="0" max="100" value="50" class="ba-slider-range"
+                               aria-label="Deslizar para comparar el antes y el después de Pintura de sala completa">
                     </div>
                     <div class="ba-info">
                         <h4>Pintura de sala completa</h4>
-                        <p>Masillado, estucado y dos manos de pintura de alta calidad.</p>
+                        <p>Masillado, estucado y dos manos de pintura. Cubrimos muebles y pisos, y entregamos el espacio limpio.</p>
                         <span class="ba-price">USD 180 • 1 día</span>
                     </div>
                 </div>
-
-                <!-- Proyecto 3 -->
                 <div class="ba-project">
                     <div class="ba-slider">
                         <div class="ba-images">
-                            <img src="https://placehold.co/600x400/8A8580/FFFFFF?text=ANTES:+Instalación+eléctrica+desordenada" alt="Antes - Tablero desordenado" class="ba-before">
-                            <img src="https://placehold.co/600x400/1E7B4F/FFFFFF?text=DESPUÉS:+Tablero+organizado+y+seguro" alt="Después - Tablero organizado" class="ba-after">
+                            <img src="images/ba-electrico-antes.jpg" alt="Antes: cables eléctricos enredados y sin identificación en el ducto" class="ba-before" loading="lazy" decoding="async">
+                            <img src="images/ba-electrico-despues.jpg" alt="Después: tablero eléctrico ordenado, con breakers alineados y circuitos identificados" class="ba-after" loading="lazy" decoding="async">
+                            <span class="ba-tag ba-tag-before">ANTES</span>
+                            <span class="ba-tag ba-tag-after">DESPUÉS</span>
+                            <span class="ba-handle" aria-hidden="true">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M8 5l-5 7 5 7V5zm8 0v14l5-7-5-7z"/>
+                                </svg>
+                            </span>
                         </div>
-                        <input type="range" min="0" max="100" value="0" class="ba-slider-range" aria-label="Deslizar para ver antes y después">
+                        <input type="range" min="0" max="100" value="50" class="ba-slider-range"
+                               aria-label="Deslizar para comparar el antes y el después de Tablero eléctrico ordenado y seguro">
                     </div>
                     <div class="ba-info">
-                        <h4>Organización de tablero eléctrico</h4>
-                        <p>Rotulado, seguro y listo para futuras ampliaciones.</p>
+                        <h4>Tablero eléctrico ordenado y seguro</h4>
+                        <p>Reorganizamos los circuitos, alineamos los breakers, rotulamos cada línea y cerramos el tablero.</p>
                         <span class="ba-price">USD 120 • 3 horas</span>
                     </div>
                 </div>
-
-                <!-- Proyecto 4 -->
                 <div class="ba-project">
                     <div class="ba-slider">
                         <div class="ba-images">
-                            <img src="https://placehold.co/600x400/8A8580/FFFFFF?text=ANTES:+Cielo+raso+dañado" alt="Antes - Cielo raso dañado" class="ba-before">
-                            <img src="https://placehold.co/600x400/FFB000/393536?text=DESPUÉS:+Cielo+raso+nuevo" alt="Después - Cielo raso nuevo" class="ba-after">
+                            <img src="images/ba-gypsum-antes.jpg" alt="Antes: cielo raso con mancha de humedad y plancha deteriorada" class="ba-before" loading="lazy" decoding="async">
+                            <img src="images/ba-gypsum-despues.jpg" alt="Después: ambiente terminado, con cielo raso limpio e iluminación embutida" class="ba-after" loading="lazy" decoding="async">
+                            <span class="ba-tag ba-tag-before">ANTES</span>
+                            <span class="ba-tag ba-tag-after">DESPUÉS</span>
+                            <span class="ba-handle" aria-hidden="true">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M8 5l-5 7 5 7V5zm8 0v14l5-7-5-7z"/>
+                                </svg>
+                            </span>
                         </div>
-                        <input type="range" min="0" max="100" value="0" class="ba-slider-range" aria-label="Deslizar para ver antes y después">
+                        <input type="range" min="0" max="100" value="50" class="ba-slider-range"
+                               aria-label="Deslizar para comparar el antes y el después de Reparación de cielo raso por humedad">
                     </div>
                     <div class="ba-info">
                         <h4>Reparación de cielo raso por humedad</h4>
-                        <p>Cambio de plancha, masillado y pintura impecable.</p>
+                        <p>Retiramos la plancha dañada, tratamos la humedad, colocamos cielo raso nuevo con iluminación embutida.</p>
                         <span class="ba-price">USD 450 • 2 días</span>
                     </div>
                 </div>
             </div>
 
             <div class="ba-note">
-                <p>📸 Estas son imágenes de ejemplo. En nuestro trabajo real, te entregamos fotos de antes y después de TU proyecto.</p>
+                <p>📸 Las fotos de esta sección son <strong>imágenes de referencia</strong> de trabajos
+                   similares, no obras ejecutadas por nosotros. Cuando trabajemos juntos, te entregamos
+                   las fotos reales de antes y después de TU proyecto.</p>
+                <p class="ba-note-credits">
+                    Créditos y licencias de estas imágenes de ejemplo:
+                    <a href="creditos.html">ver créditos</a>.
+                </p>
             </div>
         </div>
     </section>
@@ -428,6 +518,140 @@
         </div>
     </section>
 
+
+    <!-- Beneficios: carrusel de imágenes -->
+    <section id="beneficios" class="benefits-section">
+        <div class="container">
+            <h2 class="section-title center">Lo que ganas al elegirnos</h2>
+            <p class="section-subtitle center">Cinco beneficios concretos, no promesas vagas</p>
+
+            <div class="carousel" id="benefitsCarousel" aria-roledescription="carrusel"
+                 aria-label="Beneficios de ser cliente de Mi Casa Soluciones">
+                <div class="carousel-viewport">
+                    <div class="carousel-track">
+                <article class="carousel-slide is-active"
+                         role="group" aria-roledescription="diapositiva"
+                         aria-label="1 de 5: Un solo responsable">
+                    <div class="carousel-media">
+                        <img src="images/ben-1-un-responsable.jpg" alt="Un solo responsable: Deja de coordinar cinco maestros distintos. Nosotros respondemos por todo el trabajo, del principio al final." loading="lazy" decoding="async">
+                    </div>
+                    <div class="carousel-body">
+                        <span class="carousel-badge">Beneficio 1 de 5</span>
+                        <h3>Un solo responsable</h3>
+                        <p>Deja de coordinar cinco maestros distintos. Nosotros respondemos por todo el trabajo, del principio al final.</p>
+                        <p class="carousel-hook">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="#1E7B4F" aria-hidden="true">
+                                <path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z"/>
+                            </svg>
+                            Adiós a perseguir a cada maestro por separado
+                        </p>
+                    </div>
+                </article>
+                <article class="carousel-slide"
+                         role="group" aria-roledescription="diapositiva"
+                         aria-label="2 de 5: Precio cerrado por escrito">
+                    <div class="carousel-media">
+                        <img src="images/ben-2-presupuesto.jpg" alt="Precio cerrado por escrito: Recibes tu presupuesto detallado por escrito, con lo que incluye y lo que no, antes de que empecemos." loading="lazy" decoding="async">
+                    </div>
+                    <div class="carousel-body">
+                        <span class="carousel-badge">Beneficio 2 de 5</span>
+                        <h3>Precio cerrado por escrito</h3>
+                        <p>Recibes tu presupuesto detallado por escrito, con lo que incluye y lo que no, antes de que empecemos.</p>
+                        <p class="carousel-hook">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="#1E7B4F" aria-hidden="true">
+                                <path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z"/>
+                            </svg>
+                            Sabes cuánto pagas desde el primer día
+                        </p>
+                    </div>
+                </article>
+                <article class="carousel-slide"
+                         role="group" aria-roledescription="diapositiva"
+                         aria-label="3 de 5: Garantía escrita de 12 meses">
+                    <div class="carousel-media">
+                        <img src="images/ben-3-garantia.jpg" alt="Garantía escrita de 12 meses: Te entregamos un certificado firmado. Si algo falla dentro del plazo, volvemos sin costo y sin discutir." loading="lazy" decoding="async">
+                    </div>
+                    <div class="carousel-body">
+                        <span class="carousel-badge">Beneficio 3 de 5</span>
+                        <h3>Garantía escrita de 12 meses</h3>
+                        <p>Te entregamos un certificado firmado. Si algo falla dentro del plazo, volvemos sin costo y sin discutir.</p>
+                        <p class="carousel-hook">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="#1E7B4F" aria-hidden="true">
+                                <path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z"/>
+                            </svg>
+                            Duerme tranquilo un año completo
+                        </p>
+                    </div>
+                </article>
+                <article class="carousel-slide"
+                         role="group" aria-roledescription="diapositiva"
+                         aria-label="4 de 5: Llegamos a la hora pactada">
+                    <div class="carousel-media">
+                        <img src="images/ben-4-puntualidad.jpg" alt="Llegamos a la hora pactada: Personal uniformado y con carnet, que te avisa si algo se retrasa. Tu tiempo y tu casa se respetan." loading="lazy" decoding="async">
+                    </div>
+                    <div class="carousel-body">
+                        <span class="carousel-badge">Beneficio 4 de 5</span>
+                        <h3>Llegamos a la hora pactada</h3>
+                        <p>Personal uniformado y con carnet, que te avisa si algo se retrasa. Tu tiempo y tu casa se respetan.</p>
+                        <p class="carousel-hook">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="#1E7B4F" aria-hidden="true">
+                                <path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z"/>
+                            </svg>
+                            Sabes quién entra y a qué hora llega
+                        </p>
+                    </div>
+                </article>
+                <article class="carousel-slide"
+                         role="group" aria-roledescription="diapositiva"
+                         aria-label="5 de 5: Limpieza final incluida">
+                    <div class="carousel-media">
+                        <img src="images/ben-5-limpieza.jpg" alt="Limpieza final incluida: Cubrimos muebles y pisos, y nos llevamos los escombros. Entregamos más limpio de lo que encontramos." loading="lazy" decoding="async">
+                    </div>
+                    <div class="carousel-body">
+                        <span class="carousel-badge">Beneficio 5 de 5</span>
+                        <h3>Limpieza final incluida</h3>
+                        <p>Cubrimos muebles y pisos, y nos llevamos los escombros. Entregamos más limpio de lo que encontramos.</p>
+                        <p class="carousel-hook">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="#1E7B4F" aria-hidden="true">
+                                <path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z"/>
+                            </svg>
+                            Tu casa queda lista para usar
+                        </p>
+                    </div>
+                </article>
+                    </div>
+                </div>
+
+                <button class="carousel-arrow carousel-prev" aria-label="Beneficio anterior">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                        <path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/>
+                    </svg>
+                </button>
+                <button class="carousel-arrow carousel-next" aria-label="Beneficio siguiente">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                        <path d="M8.59 16.59L10 18l6-6-6-6-1.41 1.41L13.17 12z"/>
+                    </svg>
+                </button>
+
+                <div class="carousel-dots" role="tablist" aria-label="Seleccionar beneficio">
+                    <button class="carousel-dot is-active" data-slide="0" aria-label="Ir al beneficio 1: Un solo responsable"></button>
+                    <button class="carousel-dot" data-slide="1" aria-label="Ir al beneficio 2: Precio cerrado por escrito"></button>
+                    <button class="carousel-dot" data-slide="2" aria-label="Ir al beneficio 3: Garantía escrita de 12 meses"></button>
+                    <button class="carousel-dot" data-slide="3" aria-label="Ir al beneficio 4: Llegamos a la hora pactada"></button>
+                    <button class="carousel-dot" data-slide="4" aria-label="Ir al beneficio 5: Limpieza final incluida"></button>
+                </div>
+            </div>
+
+            <div class="benefits-cta">
+                <p>Estos cinco beneficios van incluidos en todos nuestros trabajos, sin costo adicional.</p>
+                <a href="https://wa.me/593963303081?text=Hola,%20quiero%20una%20cotizaci%C3%B3n%20con%20estos%20beneficios"
+                   class="btn btn-primary" target="_blank" rel="noopener">
+                    Quiero estos beneficios en mi proyecto
+                </a>
+            </div>
+        </div>
+    </section>
+
     <!-- Call to Action Section -->
     <section class="cta-section">
         <div class="container">
@@ -458,7 +682,8 @@
         <div class="container">
             <div class="footer-grid">
                 <div class="footer-brand">
-                    <img src="https://placehold.co/200x60/393536/FFFFFF?text=Mi+Casa+SOLUCIONES&font=montserrat" alt="Mi Casa Soluciones Logo" class="footer-logo">
+                    <img src="assets/logo_blanco.png" alt="Mi Casa Soluciones" class="footer-logo"
+                         width="1000" height="472" loading="lazy" decoding="async">
                     <p>Soluciones integrales para tu hogar. Una sola llamada, todo resuelto y por escrito.</p>
                     <div class="footer-social">
                         <a href="#" aria-label="Facebook">
@@ -525,6 +750,10 @@
             <div class="footer-bottom">
                 <p>&copy; 2025 Mi Casa Soluciones. Todos los derechos reservados.</p>
                 <p>RUC: Persona Natural | Factura Electrónica Disponible</p>
+                <p class="footer-credits">
+                    Fotografías de ejemplo con licencia libre ·
+                    <a href="creditos.html">Créditos de imágenes</a>
+                </p>
             </div>
         </div>
     </footer>
